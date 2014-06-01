@@ -1,0 +1,15 @@
+<h2>Profile Information</h2>
+<%= link_to 'Edit Profile', [:edit, @user] %>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Name</td>
+      <td><%= @user.name %></td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td><%= @user.email %></td>
+    </tr>
+  </tbody>
+</table>
