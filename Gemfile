@@ -14,3 +14,4 @@ gem 'spring', group: :development
 gem 'rspec-rails', '~> 2.14'
 gem 'capybara', '~> 2.1'
 gem 'guard-rspec', group: :test, require: false
+gem 'factory_girl_rails', '~> 4.2.1', group: :test
