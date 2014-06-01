@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spring', group: :development
+gem 'bcrypt', '~> 3.0'
 
 gem 'rspec-rails', '~> 2.14'
 gem 'capybara', '~> 2.1'
